@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>CDS</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="links/css/main.css" />
+		<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+		</script>
+		<script type="text/javascript">
+		(function(){
+			emailjs.init({
+				publicKey: "Zaz7_vkin84bWvRSQ",
+			});
+		})();
+	</script>
+	<script src="links/js/send.js"></script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+		 <!--About-->
+			<section id="header">
+				<header>
+				
+					<h1 id="logo"><a href="index.html">CDS</a></h1>
+					<p>I love creating responsive and creative graphical design</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">About</a></li>
+						<li><a href="#two">Skills</a></li>
+						<li><a href="#three">Works</a></li>
+						<li><a href="#four">Contact</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+			
+						<li><a href="https://www.facebook.com/chriszel.saflor" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/chrszl_ptchlv/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://github.com/perseponie" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://mail.google.com/mail/u/0/?ui=2#inbox/FMfcgzQXKDXgwCkXHQgvvsJvVbmlkfdK?compose=DmwnWtMmVfljZpxjDGcFqkXpllnHqZHZJhsRhgJbrtVkRtwrVgdgDGWFFvbHhGXMTsxsnSmbKJsQ" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+	
+			<div id="wrapper">
+
+
+					<div id="main">
+
+						<!-- HEADER -->
+							<section id="one">
+								<div class="image main" data-position="center">
+									<img src="images/last.jpg" alt="" />
+								</div>
+								<div class="container">
+									<header class="major">
+										<h2>Hi I am Chriszel</h2>
+										<p>A passionate Front-End Developer and aware designer for new and innovative designs, I also love bringing interactive web experiences to life.<br />
+										</p>
+									</header>
+									<h1>MISSION</h1>
+									<p>My mission as a Front-End Developer is to create intuitive, engaging, and responsive web interfaces that enhance user experience while ensuring accessibility for all users. </p>	
+								</div>
+							</section>
+
+						<!-- SKILLS -->
+							<section id="two">
+								<div class="container">
+									<h3>My skills</h3>
+									<p>I’m passionate about creating visually appealing, responsive websites that provide smooth user experiences. I’m continually honing my skills and learning new technologies to stay updated with the latest trends</p>
+									<ul class="feature-icons">
+										<li class="icon solid fa-code">JAVA, PYTHON AND C++</li>
+										<li class="icon solid fa-cubes">HTML AND CSS</li>
+										<li class="icon solid fa-camera">GRAPHIC DESIGN</li>
+
+										<li class="icon solid fa-user">LEADERSHIP SKILLS</li>
+									</ul>
+								</div>
+							</section>
+
+						<!-- WORKS & PROJECTS -->
+							<section id="three">
+								<div class="container">
+									<h3>My project Accomplishments</h3>
+									<p>Welcome to my project, where creativity meets functionality.
+										Below, you’ll find a collection of my recent work, showcasing a
+										 variety of skills and techniques in web development, design and Each project 
+										 represents my dedication to creating innovative
+										  and user-centered solutions, whether it's building a sleek, responsive 
+										  website or designing an engaging interface.</p>
+									<div class="features">
+										<article>
+											<a href="#" class="image"><img src="images/dashboard.png" alt="" /></a>
+											<div class="inner">
+												<h4>Hospital System</h4>
+												<p>In this project, I used basic HTML, CSS, and JavaScript for the front-end development of an Electronic Health Record (EHR) system, and PHP for the back-end to manage the database connection and handle server-side operations. </p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/c.png" alt="" /></a>
+											<div class="inner">
+												<h4>E-Scape Reservation system</h4>
+												<p>In this project, I used Microsoft Visual Studio Code as the primary development environment, with C# for building the user interface and PHP for managing the back-end operations, including database connections and data manipulation, in the context of a reservation system.</p>
+											</div>
+										</article>
+										
+									</div>
+								</div>
+							</section>
+
+						<!-- CONTACTS -->
+							<section id="four">
+								<div class="container">
+									<h3>Contact Me</h3>
+									<p>I’d love to hear from you! Whether you’re interested in collaborating, have a project in mind,
+										 or just want to chat about web development and design, feel free to reach out.
+										 I’m always open to new opportunities and eager to work on exciting projects.</p>
+
+									<form>
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" onclick="sendmail()" class="primary" value="Send Message"></li>
+													<li><input type="reset" value="Reset Form" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+
+								</div>
+							</section>
+
+
+			</div>
+
+		<!-- Scripts -->
+		 
+			<script src="links/js/jquery.min.js"></script>
+			<script src="links/js/jquery.scrollex.min.js"></script>
+			<script src="links/js/jquery.scrolly.min.js"></script>
+			<script src="links/js/browser.min.js"></script>
+			<script src="links/js/breakpoints.min.js"></script>
+			<script src="links/js/util.js"></script>
+			<script src="links/js/main.js"></script>
+
+
+	</body>
+</html>
